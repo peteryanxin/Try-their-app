@@ -1,4 +1,4 @@
-package com.example.administrator.serviceopen;
+package com.example.administrator.serviceopen.model.service;
 
 import android.app.Service;
 import android.content.Intent;
