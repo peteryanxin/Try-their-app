@@ -38,7 +38,12 @@ public class MainActivity extends AppCompatActivity {
         intent = new Intent(this, BgService.class);
         Log.d(TAG,"onCreate");
 
-        CricleImage circle = findViewById(R.id.cr);
+        circle = findViewById(R.id.cr);
+
+
+/***
+ *  https://blog.csdn.net/lly347705530/article/details/78671696 明天关注
+ */
 
         circle.setRotateListener(new RotateListener() {
 
@@ -66,6 +71,17 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    public void startMusic(View view){
+
+        circle.playMusic();
+
+    }
+
+    public void stopMusic(View view){
+
+        circle.stopMusic();
     }
 
     public void bind(View v) {
