@@ -1,4 +1,4 @@
-package com.example.administrator.serviceopen.model.activity;
+package com.example.administrator.serviceopen.view.activity;
 
 import android.os.Bundle;
 import android.os.PersistableBundle;

@@ -1,4 +1,4 @@
-package com.example.administrator.serviceopen;
+package com.example.administrator.serviceopen.model.service;
 
 import android.app.Service;
 import android.content.Intent;
@@ -58,7 +58,7 @@ public class BgService extends Service {
     }
 
 
-    class MyBinder extends Binder{
+    public class MyBinder extends Binder{
 
         public void getSimple(){
             String name = TAG;

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".view.activity.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -48,6 +48,21 @@
             android:onClick="stopS"
             android:text="Stop Service" />
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="goFragment"
+            android:text="Go Fragment " />
+
+
+        <com.example.administrator.serviceopen.view.activity.custom_ui.CricleImage
+            android:id="@+id/cr"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:src="@drawable/girl"
+            android:scaleType="centerCrop"
+            />
     </LinearLayout>
 
 </LinearLayout>

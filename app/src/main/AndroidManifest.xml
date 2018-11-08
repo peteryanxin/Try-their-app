@@ -79,7 +79,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+        <activity android:name=".view.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -87,10 +87,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".model.activity.LoginActivity"/>
+        <activity android:name=".view.activity.LoginActivity"/>
+        <activity android:name=".view.activity.activity.FragmeActivity"/>
 
-        <service android:name=".MainActivity$BgService"/>
-        <service android:name=".MainActivity$RemoteService"/>
+        <service android:name=".model.service.BgService"/>
+        <service android:name=".model.service.RemoteService"/>
     </application>
 
 </manifest>

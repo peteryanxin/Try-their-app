@@ -12,7 +12,8 @@
         android:ems="10"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="167dp" />
+        tools:layout_editor_absoluteY="167dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editText2"
